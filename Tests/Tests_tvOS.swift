@@ -1,23 +1,14 @@
+//===----------------------------------------------------------------------===//
 //
-//  DeviceKit_tvOSTests.swift
-//  DeviceKit_tvOSTests
+// This source file is part of the DeviceKit project
 //
-//  Created by Dennis Weissmann on 11/17/15.
+// Copyright © 2015 - 2016 Dennis Weissmann and all project contributors
 //
-//
+//===----------------------------------------------------------------------===//
 
 import XCTest
 @testable import DeviceKit
 
 class DeviceKitTests: XCTestCase {
-
-    func testDeviceSimulator() {
-        let device = Device()
-        XCTAssert(device.isOneOf(Device.allSimulatorTVs))
-    }
-
-    func testDeviceDescription() {
-        XCTAssert(Device().description.hasPrefix("Simulator"))
-    }
 
 }
