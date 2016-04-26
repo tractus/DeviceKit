@@ -6,10 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#import <Cocoa/Cocoa.h>
+@import Foundation;
 
-//! Project version number for DeviceKit-OSX.
-FOUNDATION_EXPORT double DeviceKit_OSXVersionNumber;
+//! Project version number for DeviceKit.
+FOUNDATION_EXPORT double DeviceKitVersionNumber;
 
-//! Project version string for DeviceKit-OSX.
-FOUNDATION_EXPORT const unsigned char DeviceKit_OSXVersionString[];
+//! Project version string for DeviceKit.
+FOUNDATION_EXPORT const unsigned char DeviceKitVersionString[];

@@ -9,21 +9,10 @@
 excluded: # paths to ignore during linting. overridden by `included`.
 
 disabled_rules: 
-  - line_length
-  - force_try
   - type_name
-  - cyclomatic_complexity
-  - todo
-  - file_length
+  - line_length
+  - force_cast
 
-type_body_length:
-  - 300 # warning
-  - 400 # error
-
-variable_name_max_length:
-  - 40 # warning
-  - 60 # error
-
-variable_name_min_length:
-  - 3 # warning
-  - 1 # error
+cyclomatic_complexity:
+  - 20 # warning
+  - 40 # error

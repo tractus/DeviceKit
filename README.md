@@ -11,15 +11,17 @@
 - [x] Device identification
 - [x] Device family detection
 - [x] Device group detection
+- [x] Operating system detection
 - [x] Simulator detection
 - [x] Battery state / charging level
 - [x] Feature detection
+
 
 ## Requirements
 
 - iOS 8.0+ / tvOS 9.0+ / watchOS 2.0+ / OS X 10.9+ / (Ubuntu 15.10???)
 - Xcode 7.3+
-- Swift Development Snapshot (swift-DEVELOPMENT-SNAPSHOT-2016-03-24-a.xctoolchain)
+- Swift Development Snapshot (swift-DEVELOPMENT-SNAPSHOT-2016-04-25-a.xctoolchain)
  
 ## Contributing
 If you have the need for a specific feature that you want implemented or if you experienced a bug, please open an issue.

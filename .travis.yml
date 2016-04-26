@@ -1,3 +1,11 @@
+#===------------------------------------------------------------------------===#
+#
+# This source file is part of the DeviceKit project
+#
+# Copyright © 2015 - 2016 Dennis Weissmann and all project contributors
+#
+#===------------------------------------------------------------------------===#
+
 language: objective-c
 osx_image: xcode7.3
 
@@ -14,6 +22,11 @@ env:
         - TVOS_SDK=appletvsimulator9.2
         - WATCHOS_SDK=watchsimulator2.2
     matrix:
+        include:
+            - env: JOB=OSX_Xcode
+            - env: JOB=OSX_SPM
+            #- env: JOB=Linux
+
         - DESTINATION="OS=9.1,name=iPhone 4S"          SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES"  POD_LINT="YES"
         - DESTINATION="OS=9.1,name=iPhone 5"           SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES"  POD_LINT="NO"
         - DESTINATION="OS=9.1,name=iPhone 5S"          SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES"  POD_LINT="NO"
@@ -39,3 +52,16 @@ script:
   - if [ $POD_LINT == "YES" ]; then
     pod lib lint;
     fi
+################################### OS X SPM ###################################
+script:
+  - swift build
+  - .build/Debug/DeviceKitTests
+env: JOB=OSX_SPM
+os: osx
+osx_image: xcode7.3
+language: objective-c
+before_install:
+  - export SWIFT_VERSION=swift-DEVELOPMENT-SNAPSHOT-2016-03-24-a
+  - curl -O https://swift.org/builds/development/xcode/$(SWIFT_VERSION)/$(SWIFT_VERSION)-osx.pkg
+  - sudo installer -pkg $(SWIFT_VERSION)-osx.pkg -target /
+  - export PATH=/Library/Developer/Toolchains/$(SWIFT_VERSION).xctoolchain/usr/bin:"${PATH}"

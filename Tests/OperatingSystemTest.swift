@@ -1,4 +1,4 @@
-// ===----------------------------------------------------------------------===//
+//===----------------------------------------------------------------------===//
 //
 // This source file is part of the DeviceKit project
 //
@@ -9,6 +9,6 @@
 import XCTest
 @testable import DeviceKit
 
-class DeviceKitTests: XCTestCase {
+class OperatingSystemTests: XCTestCase {
 
 }

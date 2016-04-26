@@ -9,17 +9,62 @@
 /* Begin PBXBuildFile section */
 		951E3A0F1C61549400261610 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E3A0D1C61549400261610 /* Device.swift */; };
 		951E3A101C61549400261610 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E3A0D1C61549400261610 /* Device.swift */; };
+		953B17F91CB305CB009B43ED /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B17F81CB305CB009B43ED /* Battery.swift */; };
+		953B17FA1CB305CB009B43ED /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B17F81CB305CB009B43ED /* Battery.swift */; };
+		953B17FB1CB305CB009B43ED /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B17F81CB305CB009B43ED /* Battery.swift */; };
+		953B17FC1CB305CB009B43ED /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B17F81CB305CB009B43ED /* Battery.swift */; };
+		95B0D8801CB2D6C00037EA1C /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0D87F1CB2D6C00037EA1C /* Watch.swift */; };
+		95B0D8811CB2D6C00037EA1C /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0D87F1CB2D6C00037EA1C /* Watch.swift */; };
+		95B0D8821CB2D6C00037EA1C /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0D87F1CB2D6C00037EA1C /* Watch.swift */; };
+		95B0D8831CB2D6C00037EA1C /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0D87F1CB2D6C00037EA1C /* Watch.swift */; };
 		95C7E8441C61252100B0189E /* Tests_tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7E8431C61252100B0189E /* Tests_tvOS.swift */; };
 		95C7E8461C61253900B0189E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7E8451C61253900B0189E /* Tests_iOS.swift */; };
 		95CBDB7A1BFD2B5F0065FC66 /* DeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CBDB6F1BFD2B5F0065FC66 /* DeviceKit.framework */; };
 		95CBDB961BFD2B720065FC66 /* DeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CBDB8C1BFD2B720065FC66 /* DeviceKit.framework */; };
+		95E59CD91CB1BB2200D16E0D /* DeviceMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E59CD81CB1BB2200D16E0D /* DeviceMapping.swift */; };
+		95E59CDA1CB1BB2200D16E0D /* DeviceMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E59CD81CB1BB2200D16E0D /* DeviceMapping.swift */; };
+		95E59CDB1CB1BB2200D16E0D /* DeviceMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E59CD81CB1BB2200D16E0D /* DeviceMapping.swift */; };
+		95E59CDC1CB1BB2200D16E0D /* DeviceMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E59CD81CB1BB2200D16E0D /* DeviceMapping.swift */; };
+		95E59CDE1CB1C88B00D16E0D /* DeviceInternals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E59CDD1CB1C88B00D16E0D /* DeviceInternals.swift */; };
+		95E59CDF1CB1C88B00D16E0D /* DeviceInternals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E59CDD1CB1C88B00D16E0D /* DeviceInternals.swift */; };
+		95E59CE01CB1C88B00D16E0D /* DeviceInternals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E59CDD1CB1C88B00D16E0D /* DeviceInternals.swift */; };
+		95E59CE11CB1C88B00D16E0D /* DeviceInternals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E59CDD1CB1C88B00D16E0D /* DeviceInternals.swift */; };
 		95EBDC4F1CB141D6004E04B2 /* DeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EBDC451CB141D6004E04B2 /* DeviceKit.framework */; };
 		95EBDC541CB141D6004E04B2 /* Tests_OSX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC531CB141D6004E04B2 /* Tests_OSX.swift */; };
 		95EBDC5C1CB1445E004E04B2 /* DeviceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EBDC471CB141D6004E04B2 /* DeviceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95EBDC651CB14580004E04B2 /* DeviceKit-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EBDC641CB14580004E04B2 /* DeviceKit-watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95EBDC6B1CB14A55004E04B2 /* Tests_Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC6A1CB14A55004E04B2 /* Tests_Shared.swift */; };
 		95EBDC6C1CB14A55004E04B2 /* Tests_Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC6A1CB14A55004E04B2 /* Tests_Shared.swift */; };
 		95EBDC6D1CB14A55004E04B2 /* Tests_Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC6A1CB14A55004E04B2 /* Tests_Shared.swift */; };
+		95EBDC6F1CB1573E004E04B2 /* OperatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC6E1CB1573E004E04B2 /* OperatingSystem.swift */; };
+		95EBDC701CB1573E004E04B2 /* OperatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC6E1CB1573E004E04B2 /* OperatingSystem.swift */; };
+		95EBDC711CB1573E004E04B2 /* OperatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC6E1CB1573E004E04B2 /* OperatingSystem.swift */; };
+		95EBDC721CB1573E004E04B2 /* OperatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC6E1CB1573E004E04B2 /* OperatingSystem.swift */; };
+		95EBDC741CB15A06004E04B2 /* Sysctl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC731CB15A06004E04B2 /* Sysctl.swift */; };
+		95EBDC751CB15A06004E04B2 /* Sysctl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC731CB15A06004E04B2 /* Sysctl.swift */; };
+		95EBDC761CB15A06004E04B2 /* Sysctl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC731CB15A06004E04B2 /* Sysctl.swift */; };
+		95EBDC771CB15A06004E04B2 /* Sysctl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC731CB15A06004E04B2 /* Sysctl.swift */; };
+		95EBDC781CB15B33004E04B2 /* DeviceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EBDC471CB141D6004E04B2 /* DeviceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95EBDC791CB15C56004E04B2 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E3A0D1C61549400261610 /* Device.swift */; };
+		95EBDC7A1CB15C56004E04B2 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E3A0D1C61549400261610 /* Device.swift */; };
+		95EBDC7C1CB15CB1004E04B2 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC7B1CB15CB1004E04B2 /* Phone.swift */; };
+		95EBDC7D1CB15CB1004E04B2 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC7B1CB15CB1004E04B2 /* Phone.swift */; };
+		95EBDC7E1CB15CB1004E04B2 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC7B1CB15CB1004E04B2 /* Phone.swift */; };
+		95EBDC7F1CB15CB1004E04B2 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC7B1CB15CB1004E04B2 /* Phone.swift */; };
+		95EBDC811CB1621A004E04B2 /* OperatingSystemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC801CB1621A004E04B2 /* OperatingSystemTest.swift */; };
+		95EBDC841CB18F5F004E04B2 /* Pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC831CB18F5F004E04B2 /* Pad.swift */; };
+		95EBDC851CB18F5F004E04B2 /* Pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC831CB18F5F004E04B2 /* Pad.swift */; };
+		95EBDC861CB18F5F004E04B2 /* Pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC831CB18F5F004E04B2 /* Pad.swift */; };
+		95EBDC871CB18F5F004E04B2 /* Pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBDC831CB18F5F004E04B2 /* Pad.swift */; };
+		95EBDC881CB19CDD004E04B2 /* DeviceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EBDC471CB141D6004E04B2 /* DeviceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95EBDC891CB19CE1004E04B2 /* DeviceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EBDC471CB141D6004E04B2 /* DeviceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F1D5041CB577B50019C26E /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1D5031CB577B50019C26E /* TV.swift */; };
+		95F1D5051CB577B50019C26E /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1D5031CB577B50019C26E /* TV.swift */; };
+		95F1D5061CB577B50019C26E /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1D5031CB577B50019C26E /* TV.swift */; };
+		95F1D5071CB577B50019C26E /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1D5031CB577B50019C26E /* TV.swift */; };
+		95F1D5091CB5798C0019C26E /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1D5081CB5798C0019C26E /* Pod.swift */; };
+		95F1D50A1CB5798C0019C26E /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1D5081CB5798C0019C26E /* Pod.swift */; };
+		95F1D50B1CB5798C0019C26E /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1D5081CB5798C0019C26E /* Pod.swift */; };
+		95F1D50C1CB5798C0019C26E /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1D5081CB5798C0019C26E /* Pod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +94,11 @@
 /* Begin PBXFileReference section */
 		951E3A0D1C61549400261610 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Source/Device.swift; sourceTree = "<group>"; };
 		951E3A0E1C61549400261610 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
+		953B17F81CB305CB009B43ED /* Battery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Battery.swift; path = Source/Battery.swift; sourceTree = "<group>"; };
 		957D18251C28C1E90067D203 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		957D18261C28C1F30067D203 /* DeviceKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DeviceKit.podspec; sourceTree = "<group>"; };
 		957D18271C28C1FC0067D203 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		95B0D87F1CB2D6C00037EA1C /* Watch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Watch.swift; path = Source/Watch.swift; sourceTree = "<group>"; };
 		95C7E83F1C61239D00B0189E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		95C7E8431C61252100B0189E /* Tests_tvOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tests_tvOS.swift; path = Tests/Tests_tvOS.swift; sourceTree = "<group>"; };
 		95C7E8451C61253900B0189E /* Tests_iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tests_iOS.swift; path = Tests/Tests_iOS.swift; sourceTree = "<group>"; };
@@ -62,13 +109,21 @@
 		95CBDB791BFD2B5F0065FC66 /* DeviceKit-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DeviceKit-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CBDB8C1BFD2B720065FC66 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CBDB951BFD2B720065FC66 /* DeviceKit-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DeviceKit-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E59CD81CB1BB2200D16E0D /* DeviceMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceMapping.swift; path = Source/DeviceMapping.swift; sourceTree = "<group>"; };
+		95E59CDD1CB1C88B00D16E0D /* DeviceInternals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceInternals.swift; path = Source/DeviceInternals.swift; sourceTree = "<group>"; };
 		95EBDC451CB141D6004E04B2 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EBDC471CB141D6004E04B2 /* DeviceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceKit.h; sourceTree = "<group>"; };
 		95EBDC4E1CB141D6004E04B2 /* DeviceKit-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DeviceKit-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EBDC531CB141D6004E04B2 /* Tests_OSX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tests_OSX.swift; path = Tests/Tests_OSX.swift; sourceTree = "<group>"; };
 		95EBDC621CB14580004E04B2 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95EBDC641CB14580004E04B2 /* DeviceKit-watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-watchOS.h"; sourceTree = "<group>"; };
 		95EBDC6A1CB14A55004E04B2 /* Tests_Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tests_Shared.swift; path = Tests/Tests_Shared.swift; sourceTree = "<group>"; };
+		95EBDC6E1CB1573E004E04B2 /* OperatingSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperatingSystem.swift; path = Source/OperatingSystem.swift; sourceTree = "<group>"; };
+		95EBDC731CB15A06004E04B2 /* Sysctl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sysctl.swift; path = Source/Sysctl.swift; sourceTree = "<group>"; };
+		95EBDC7B1CB15CB1004E04B2 /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Phone.swift; path = Source/Phone.swift; sourceTree = "<group>"; };
+		95EBDC801CB1621A004E04B2 /* OperatingSystemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperatingSystemTest.swift; path = Tests/OperatingSystemTest.swift; sourceTree = "<group>"; };
+		95EBDC831CB18F5F004E04B2 /* Pad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pad.swift; sourceTree = "<group>"; };
+		95F1D5031CB577B50019C26E /* TV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TV.swift; path = Source/TV.swift; sourceTree = "<group>"; };
+		95F1D5081CB5798C0019C26E /* Pod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pod.swift; path = Source/Pod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,10 +182,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95B0D8841CB2D6CD0037EA1C /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				95EBDC831CB18F5F004E04B2 /* Pad.swift */,
+				95EBDC7B1CB15CB1004E04B2 /* Phone.swift */,
+				95F1D5081CB5798C0019C26E /* Pod.swift */,
+				95F1D5031CB577B50019C26E /* TV.swift */,
+				95B0D87F1CB2D6C00037EA1C /* Watch.swift */,
+			);
+			name = Devices;
+			sourceTree = "<group>";
+		};
 		95C7E83B1C6122BF00B0189E /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				951E3A0D1C61549400261610 /* Device.swift */,
+				95E59CD81CB1BB2200D16E0D /* DeviceMapping.swift */,
+				95E59CDD1CB1C88B00D16E0D /* DeviceInternals.swift */,
+				95EBDC6E1CB1573E004E04B2 /* OperatingSystem.swift */,
+				953B17F81CB305CB009B43ED /* Battery.swift */,
+				95EBDC731CB15A06004E04B2 /* Sysctl.swift */,
+				95B0D8841CB2D6CD0037EA1C /* Devices */,
 				951E3A0E1C61549400261610 /* Info.plist */,
 			);
 			name = Source;
@@ -139,11 +212,12 @@
 		95C7E8411C61241200B0189E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				95C7E8471C612ABA00B0189E /* Info.plist */,
 				95C7E8431C61252100B0189E /* Tests_tvOS.swift */,
 				95C7E8451C61253900B0189E /* Tests_iOS.swift */,
 				95EBDC531CB141D6004E04B2 /* Tests_OSX.swift */,
 				95EBDC6A1CB14A55004E04B2 /* Tests_Shared.swift */,
+				95EBDC801CB1621A004E04B2 /* OperatingSystemTest.swift */,
+				95C7E8471C612ABA00B0189E /* Info.plist */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -160,7 +234,6 @@
 				95C7E84D1C6130DB00B0189E /* .swiftlint.yml */,
 				95C7E83F1C61239D00B0189E /* .gitignore */,
 				95EBDC471CB141D6004E04B2 /* DeviceKit.h */,
-				95EBDC641CB14580004E04B2 /* DeviceKit-watchOS.h */,
 				95CBDB701BFD2B5F0065FC66 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -186,6 +259,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EBDC891CB19CE1004E04B2 /* DeviceKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +267,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EBDC881CB19CDD004E04B2 /* DeviceKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +283,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EBDC651CB14580004E04B2 /* DeviceKit-watchOS.h in Headers */,
+				95EBDC781CB15B33004E04B2 /* DeviceKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +561,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953B17F91CB305CB009B43ED /* Battery.swift in Sources */,
+				95EBDC841CB18F5F004E04B2 /* Pad.swift in Sources */,
+				95EBDC7C1CB15CB1004E04B2 /* Phone.swift in Sources */,
+				95F1D5041CB577B50019C26E /* TV.swift in Sources */,
+				95E59CD91CB1BB2200D16E0D /* DeviceMapping.swift in Sources */,
+				95EBDC6F1CB1573E004E04B2 /* OperatingSystem.swift in Sources */,
+				95F1D5091CB5798C0019C26E /* Pod.swift in Sources */,
 				951E3A0F1C61549400261610 /* Device.swift in Sources */,
+				95B0D8801CB2D6C00037EA1C /* Watch.swift in Sources */,
+				95E59CDE1CB1C88B00D16E0D /* DeviceInternals.swift in Sources */,
+				95EBDC741CB15A06004E04B2 /* Sysctl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +588,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953B17FA1CB305CB009B43ED /* Battery.swift in Sources */,
+				95EBDC851CB18F5F004E04B2 /* Pad.swift in Sources */,
+				95EBDC7D1CB15CB1004E04B2 /* Phone.swift in Sources */,
+				95F1D5051CB577B50019C26E /* TV.swift in Sources */,
+				95E59CDA1CB1BB2200D16E0D /* DeviceMapping.swift in Sources */,
+				95EBDC701CB1573E004E04B2 /* OperatingSystem.swift in Sources */,
+				95F1D50A1CB5798C0019C26E /* Pod.swift in Sources */,
 				951E3A101C61549400261610 /* Device.swift in Sources */,
+				95B0D8811CB2D6C00037EA1C /* Watch.swift in Sources */,
+				95E59CDF1CB1C88B00D16E0D /* DeviceInternals.swift in Sources */,
+				95EBDC751CB15A06004E04B2 /* Sysctl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +615,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953B17FB1CB305CB009B43ED /* Battery.swift in Sources */,
+				95EBDC861CB18F5F004E04B2 /* Pad.swift in Sources */,
+				95EBDC7E1CB15CB1004E04B2 /* Phone.swift in Sources */,
+				95F1D5061CB577B50019C26E /* TV.swift in Sources */,
+				95E59CDB1CB1BB2200D16E0D /* DeviceMapping.swift in Sources */,
+				95EBDC791CB15C56004E04B2 /* Device.swift in Sources */,
+				95F1D50B1CB5798C0019C26E /* Pod.swift in Sources */,
+				95EBDC711CB1573E004E04B2 /* OperatingSystem.swift in Sources */,
+				95B0D8821CB2D6C00037EA1C /* Watch.swift in Sources */,
+				95E59CE01CB1C88B00D16E0D /* DeviceInternals.swift in Sources */,
+				95EBDC761CB15A06004E04B2 /* Sysctl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +634,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95EBDC6D1CB14A55004E04B2 /* Tests_Shared.swift in Sources */,
+				95EBDC811CB1621A004E04B2 /* OperatingSystemTest.swift in Sources */,
 				95EBDC541CB141D6004E04B2 /* Tests_OSX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +643,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953B17FC1CB305CB009B43ED /* Battery.swift in Sources */,
+				95EBDC871CB18F5F004E04B2 /* Pad.swift in Sources */,
+				95EBDC7F1CB15CB1004E04B2 /* Phone.swift in Sources */,
+				95F1D5071CB577B50019C26E /* TV.swift in Sources */,
+				95E59CDC1CB1BB2200D16E0D /* DeviceMapping.swift in Sources */,
+				95EBDC7A1CB15C56004E04B2 /* Device.swift in Sources */,
+				95F1D50C1CB5798C0019C26E /* Pod.swift in Sources */,
+				95EBDC721CB1573E004E04B2 /* OperatingSystem.swift in Sources */,
+				95B0D8831CB2D6C00037EA1C /* Watch.swift in Sources */,
+				95E59CE11CB1C88B00D16E0D /* DeviceInternals.swift in Sources */,
+				95EBDC771CB15A06004E04B2 /* Sysctl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1586,6 +1704,7 @@
 				95EBDC571CB141D6004E04B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95EBDC5B1CB141D6004E04B2 /* Build configuration list for PBXNativeTarget "DeviceKit-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -1594,6 +1713,7 @@
 				95EBDC591CB141D6004E04B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95EBDC671CB14580004E04B2 /* Build configuration list for PBXNativeTarget "DeviceKit-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -1602,6 +1722,7 @@
 				95EBDC691CB14580004E04B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
