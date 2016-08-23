@@ -253,7 +253,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SWR98KT795;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -305,7 +305,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SWR98KT795;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -467,6 +467,7 @@
 				955EE5AD1D5E581B008C3DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		955EE5AE1D5E581B008C3DA8 /* Build configuration list for PBXNativeTarget "DeviceKitTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				955EE5B01D5E581B008C3DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95CBDB671BFD2B440065FC66 /* Build configuration list for PBXProject "DeviceKit" */ = {
 			isa = XCConfigurationList;
